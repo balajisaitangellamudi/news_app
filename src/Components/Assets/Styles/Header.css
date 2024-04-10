@@ -1,0 +1,54 @@
+.header_container {
+  display: grid;
+  grid-row-gap: 0.5rem;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 60px;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.logo {
+  width: 20%;
+  min-width: 160px;
+}
+.person_details {
+  display: grid;
+  align-content: space-between;
+  grid-row-gap: 1rem;
+}
+.login_details {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.login_details p {
+  margin: 0px 1rem;
+}
+
+.countries {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0rem 0.5rem;
+}
+
+.nav_bar {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  padding: 0rem 0.5rem;
+}
+
+.nav_links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0rem 1.3rem;
+}
+
+.nav_links div {
+  padding: 0rem 0.5rem;
+}
